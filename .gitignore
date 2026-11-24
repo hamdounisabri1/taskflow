@@ -1,0 +1,27 @@
+# Secrets and local config
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+
+# Node
+node_modules/
+dist/
+.next/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
